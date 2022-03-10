@@ -1,0 +1,29 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "http://bankdetailsdemo.azurewebsites.net/WebServices/SoapDemo.asmx"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, WorldlineLiveServiceReference"
+    ],
+    "references": [
+      "Microsoft.AspNetCore.Mvc.Razor.Extensions, {Microsoft.AspNetCore.Mvc.Razor.Extensions, 5.0.14}",
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation, {Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation, 5.0.14}",
+      "Microsoft.AspNetCore.Razor.Language, {Microsoft.AspNetCore.Razor.Language, 5.0.14}",
+      "Microsoft.CodeAnalysis, {Microsoft.CodeAnalysis.Common, 3.8.0}",
+      "Microsoft.CodeAnalysis.CSharp, {Microsoft.CodeAnalysis.CSharp, 3.8.0}",
+      "Microsoft.CodeAnalysis.Razor, {Microsoft.CodeAnalysis.Razor, 5.0.14}",
+      "Microsoft.Extensions.DependencyModel, {Microsoft.Extensions.DependencyModel, 5.0.0}",
+      "System.Collections.Immutable, {System.Collections.Immutable, 5.0.0}",
+      "System.Reflection.Metadata, {System.Reflection.Metadata, 5.0.0}",
+      "System.Runtime.CompilerServices.Unsafe, {System.Runtime.CompilerServices.Unsafe, 4.7.1}",
+      "System.Text.Encoding.CodePages, {System.Text.Encoding.CodePages, 4.5.1}"
+    ],
+    "targetFramework": "net5.0",
+    "typeReuseMode": "All"
+  }
+}

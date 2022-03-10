@@ -1,0 +1,60 @@
+﻿@model IEnumerable<WorldlineLiveServiceReference.BankDetails>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Bank)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ifsc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MicrCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Branch)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StdCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contact)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.District)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.State)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>@item.Bank</td>
+            <td>@item.Ifsc</td>
+            <td>@item.MicrCode</td>
+            <td>@item.Branch</td>
+            <td>@item.StdCode</td>
+            <td>@item.Contact</td>
+            <td>@item.City</td>
+            <td>@item.District</td>
+            <td>@item.State</td>
+        </tr>
+}
+    </tbody>
+</table>
